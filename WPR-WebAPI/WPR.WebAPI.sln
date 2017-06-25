@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPR.DAL.EntityFramework", "WPR.DAL.EntityFramework\WPR.DAL.EntityFramework.csproj", "{F41A3418-7348-4FC7-91FD-49D6D707F3DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D2747BF7-BBCD-40A1-8453-576E0737B01A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPR.Entities", "WPR.Entities\WPR.Entities.csproj", "{1857FF33-29A8-4D94-ADF0-6D41BA30200E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPR.Repository.Interface", "WPR.Repository.Interface\WPR.Repository.Interface.csproj", "{EA09C350-1454-4D22-9B53-B101E55D7C0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPR.WebAPI", "WPR.Reporting.WebAPI\WPR.WebAPI.csproj", "{83965FC4-C1D2-440E-96EE-26D51D0D4089}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPR.Reporting.BLL", "WPR.Reporting.BLL\WPR.Reporting.BLL.csproj", "{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DiscoviaDev|Any CPU = DiscoviaDev|Any CPU
+		DiscoviaProd|Any CPU = DiscoviaProd|Any CPU
+		DiscoviaStage|Any CPU = DiscoviaStage|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.DiscoviaDev|Any CPU.ActiveCfg = DiscoviaDev|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.DiscoviaDev|Any CPU.Build.0 = DiscoviaDev|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.DiscoviaProd|Any CPU.ActiveCfg = DiscoviaProd|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.DiscoviaProd|Any CPU.Build.0 = DiscoviaProd|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.DiscoviaStage|Any CPU.ActiveCfg = DiscoviaStage|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.DiscoviaStage|Any CPU.Build.0 = DiscoviaStage|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41A3418-7348-4FC7-91FD-49D6D707F3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.DiscoviaDev|Any CPU.ActiveCfg = DiscoviaDev|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.DiscoviaDev|Any CPU.Build.0 = DiscoviaDev|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.DiscoviaProd|Any CPU.ActiveCfg = DiscoviaProd|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.DiscoviaProd|Any CPU.Build.0 = DiscoviaProd|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.DiscoviaStage|Any CPU.ActiveCfg = DiscoviaStage|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.DiscoviaStage|Any CPU.Build.0 = DiscoviaStage|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1857FF33-29A8-4D94-ADF0-6D41BA30200E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.DiscoviaDev|Any CPU.ActiveCfg = DiscoviaDev|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.DiscoviaDev|Any CPU.Build.0 = DiscoviaDev|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.DiscoviaProd|Any CPU.ActiveCfg = DiscoviaProd|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.DiscoviaProd|Any CPU.Build.0 = DiscoviaProd|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.DiscoviaStage|Any CPU.ActiveCfg = DiscoviaStage|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.DiscoviaStage|Any CPU.Build.0 = DiscoviaStage|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA09C350-1454-4D22-9B53-B101E55D7C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.DiscoviaDev|Any CPU.ActiveCfg = DiscoviaDev|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.DiscoviaDev|Any CPU.Build.0 = DiscoviaDev|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.DiscoviaProd|Any CPU.ActiveCfg = DiscoviaProd|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.DiscoviaProd|Any CPU.Build.0 = DiscoviaProd|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.DiscoviaStage|Any CPU.ActiveCfg = DiscoviaStage|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.DiscoviaStage|Any CPU.Build.0 = DiscoviaStage|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83965FC4-C1D2-440E-96EE-26D51D0D4089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.DiscoviaDev|Any CPU.ActiveCfg = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.DiscoviaDev|Any CPU.Build.0 = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.DiscoviaProd|Any CPU.ActiveCfg = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.DiscoviaProd|Any CPU.Build.0 = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.DiscoviaStage|Any CPU.ActiveCfg = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.DiscoviaStage|Any CPU.Build.0 = Debug|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55965302-FDBC-4EAA-AE00-7ED4A63E0BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
